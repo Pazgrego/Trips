@@ -17,8 +17,8 @@ struct ContentView: View {
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("first")
-                        Text("First")
+                        Image("icons8-passport")
+                        Text("Profile")
                     }
                 }
                 .tag(0)
@@ -26,8 +26,8 @@ struct ContentView: View {
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("second")
-                        Text("Second")
+                        Image("icons8-around_the_globe")
+                        Text("Explore")
                     }
                 }
                 .tag(1)
