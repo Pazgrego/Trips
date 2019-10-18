@@ -13,7 +13,7 @@ struct ContentView: View {
  
     var body: some View {
         TabView(selection: $selection){
-            Text("Fucking commit")
+            Text("Fucking ofek's commit")
                 .font(.title)
                 .tabItem {
                     VStack {
