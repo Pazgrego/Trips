@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		8016E328235A035100AB2A38 /* TripsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8016E327235A035100AB2A38 /* TripsUITests.swift */; };
 		8016E336235A128D00AB2A38 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8016E335235A128D00AB2A38 /* SwiftUIView.swift */; };
 		8016E338235A153B00AB2A38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8016E337235A153A00AB2A38 /* GoogleService-Info.plist */; };
+		8016E33A235A192B00AB2A38 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8016E339235A192B00AB2A38 /* Login.swift */; };
 		8767990454A6D79F965746C3 /* Pods_Trips_TripsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0F9C9B8478C5E1E3DA592 /* Pods_Trips_TripsUITests.framework */; };
 		AB89665366435391C7FA7B60 /* Pods_TripsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C9DF3654A0912F7CD45E09 /* Pods_TripsTests.framework */; };
 		D337ECD6147D0853256D89FA /* Pods_Trips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C4A0AD56ED3A86411492E2 /* Pods_Trips.framework */; };
@@ -61,6 +62,7 @@
 		8016E329235A035100AB2A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8016E335235A128D00AB2A38 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		8016E337235A153A00AB2A38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8016E339235A192B00AB2A38 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		A9C0F9C9B8478C5E1E3DA592 /* Pods_Trips_TripsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trips_TripsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C9DF3654A0912F7CD45E09 /* Pods_TripsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C4A0AD56ED3A86411492E2 /* Pods_Trips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 				8016E313235A035100AB2A38 /* Info.plist */,
 				8016E337235A153A00AB2A38 /* GoogleService-Info.plist */,
 				8016E30D235A035100AB2A38 /* Preview Content */,
+				8016E339235A192B00AB2A38 /* Login.swift */,
 			);
 			path = Trips;
 			sourceTree = "<group>";
@@ -179,7 +182,6 @@
 				70750B1738086533800F6749 /* Pods-TripsTests.debug.xcconfig */,
 				FCB3039864C39E0AE1F23BB2 /* Pods-TripsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -424,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8016E306235A034F00AB2A38 /* AppDelegate.swift in Sources */,
+				8016E33A235A192B00AB2A38 /* Login.swift in Sources */,
 				8016E308235A034F00AB2A38 /* SceneDelegate.swift in Sources */,
 				8016E336235A128D00AB2A38 /* SwiftUIView.swift in Sources */,
 				8016E30A235A034F00AB2A38 /* ContentView.swift in Sources */,
